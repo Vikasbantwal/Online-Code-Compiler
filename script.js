@@ -20,7 +20,7 @@ document.getElementById("runBtn").addEventListener("click", async () => {
 
   try {
     
-    let response = await fetch("https://judge0-ce.p.rapidapi.com/submissions?base64_encoded=false&wait=true", {
+    let response = await fetch("https://judge0-ce.p.rapidapi.com/submissions?base64_enco/ded=false&wait=true", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
